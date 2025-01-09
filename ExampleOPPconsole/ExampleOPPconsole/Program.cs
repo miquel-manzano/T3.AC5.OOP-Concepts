@@ -9,6 +9,8 @@ internal class Program
 
         Plush MyPlushCat = new Animal("felyne", "tabby", 02, 5.2f, "1 Setember", "Mordisquitos");
 
+        Plush Edu = new Monster("big moster, hairy", "chismas hat", 03, 1.73f, "09/01*2025", "Edu");
+
 
     }
 }
