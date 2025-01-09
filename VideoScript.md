@@ -1,71 +1,65 @@
-# Guion Video
+# Video Script
 
-Intercalar los ejemplos con la explicacion para mas claredad.
+Intermix the examples with the explanation for more clarity.
 
-Usar soporte Slides para teoria y poder seguir una pauta.
+Use slide support for theory and to follow a structured guideline.
 
-## Escena 1
+## Scene 1
 
-Buenos diaaaas, me llamo miquel, soy estudiante en el itb y hoy hos vengo a hablar sobre la programacion ambientada a objetos.
+**Good morninggg!** My name is Miquel, I’m a student at ITB, and today I’m here to talk to you about object-oriented programming.
 
+## Scene 2
 
-## Escena 2
+### What’s Object-Oriented Programming??
 
-Whats Object Oriented Programing??
+It’s a type of programming paradigm that organizes software design around objects, which those objects interact with each other and the world.
 
-Es un tipo de paradigma de la programacio que organiza el disseño de software por objetos, los cuales interactuan entre ellos y con el mundo.
+## Scene 3
 
+### What is an object?
 
-## Escena 3
+An object, just like in the real world, has a state/form and a behavior that defines it. In programming, we assign an object’s state and form with variables, and we decide its behavior with functions.
 
-Que es un objeto?
+## Scene 4
 
-Un objeto, al igual que en el mundo real, tiene un estado/forma y un comportamiento los cuales los define. En programacion asigmamos el estado i forma de un objeto con variables, y decidimos como se comporta con funciones.
+### How to represent an object?
 
+Before starting to create objects like crazy, you need to know how to represent an object in UML (diagrams) and understand its structure properly.
 
-## Escena 4
-
-Como Representar un objeto?
-
-Antes de empezar a hacer objetos como un loco, hay que saber como representar un objeto en UML (esquemas), y entender la estructura adecuadamante.
-
-Mostrar ejemplo objeto UML
+_Show an example of a UML object._
 
 ---
 
-Tipos de relacion UML
+### Types of UML Relationships
 
-En UML tenemos estos tipos de relacion:
-- associacion: se juntan dos o mas objetos que puedan colaborar juntos
-- agregacion: el objeto esta formado por otros objetos
-- composicion: la composicion es un grupo de objetos que dependen de entre si para poder existir
-- herencia: objetos que heredan el estado y forma de una superclase
+In UML, we have these types of relationships:  
+- **Association**: Two or more objects come together to collaborate.  
+- **Aggregation**: The object is composed of other objects.  
+- **Composition**: A group of objects that depend on each other to exist.  
+- **Inheritance**: Objects inherit the state and form of a superclass.
 
 ---
 
-Esto son las variables del objeto, y este simbolo de menor nos indica que son variables privadas que solo son accesibles por la clase.
+These are the object’s variables, and this less-than symbol (`<`) indicates that they are private variables, accessible only by the class.  
 
-Esto son los setters, los usamos para rellenar las variables y el simbolo de mas nos indica que son funciones publicas, las cuales podemos acceder desde fuera la clase.
+These are the **setters**, which we use to assign values to variables. The plus symbol (`+`) indicates that these are public functions, which we can access from outside the class.  
 
-Esto son los getters, los usamos para pedir el valor de las variables y, como mencione anteriormente, son funciones publicas.
+These are the **getters**, which we use to request the value of variables. As mentioned earlier, they are public functions.  
 
-Cada objeto tiene sus seters y getters indibiduales para us variables
+Each object has its own individual setters and getters for its variables.
 
+## Scene 7
 
-## Escena 7
+### Basic concepts
 
-Conceptos prebios
+Before starting to program, we need to understand that when we create an object, what we’re actually doing is creating a kind of mold or blueprint that we’ll follow to create those objects. Each object we create will be called an **instance**.
 
-Antes de empezar a programar, tenemos que tener claro que a la hora de crear un objeto, lo que estamos haciendo es una especie de molde o plano el qual vamos a seguir para crear esos objetos. Cada objeto que creemos se llamara instancia.
+## Scene 6
 
+### Implementation in C#
 
-## Escena 6
+Now I’m going to show you how to implement this in C#...  
 
-Implementacion en c#
+First, we’ll create a **console project**; this is where we’ll access our object templates to create the instances. Then, we’ll create a **new class** in a new file or a **library project** where we’ll place the object templates.  
 
-Ahora hos voy a mostrar como implementarlo en c#...
-
-Primero crearemos un projecto de consola, aqui es donde accederemos a nuestras plantillas de objeto para crear las instancias. Ahora creamos una clase nueva en un fitxero nuevo, o bien, un projecto de libreria donde pondremos las plantillas de objetos.
-
-La sintaxis a seguir es esta: aqui encontramos los setters, getters y variables.
-
+The syntax to follow is this: here we find the setters, getters, and variables.
